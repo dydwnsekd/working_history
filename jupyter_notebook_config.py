@@ -258,6 +258,8 @@ c.NotebookApp.ip = '0.0.0.0'
 #c.NotebookApp.nbserver_extensions = {}
 
 ## The directory to use for notebooks and kernels.
+## 현재 디렉토리로 사용하고자 하는경우는 ''만 입력
+# c.NotebookApp.notebook_dir = '[시작위치로 사용하고자 하는 경로]'
 c.NotebookApp.notebook_dir = 'C:/Users/user/Desktop/workspace/jupyter/'
 
 ## Whether to open in a browser after starting. The specific browser used is
